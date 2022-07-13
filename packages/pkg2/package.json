@@ -1,0 +1,23 @@
+{
+  "name": "pkg2",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "hong.rong <2787716172@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/pkg2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "ora": "^6.1.2",
+    "pkg1": "^0.0.1"
+  }
+}

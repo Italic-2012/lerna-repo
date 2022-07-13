@@ -4,10 +4,18 @@
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "lerna": "^4.0.0"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "scripts": {
-    "clear-all": "rimraf node_modules && lerna clean -y"
+    "clear-all": "rimraf node_modules && lerna clean -y",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^4.0.0"
   }
 }
